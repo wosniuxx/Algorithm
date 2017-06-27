@@ -1,6 +1,7 @@
 package com.niu.fream;
 
 import com.niu.factorial.Factorial;
+import com.niu.factorial.RabbitsSequence;
 import com.niu.iteration.Iteration;
 
 /**
@@ -27,6 +28,11 @@ public class FreamApplication {
         /**
          * 提示用户输入一个非负整数，然后显示这个非负整数的阶乘
          */
-        new Factorial().result();
+        //new Factorial().result();
+        
+        /**
+         * 提示用户输入下标，计算与这个下标相适应的斐波那契数列
+         */
+        new RabbitsSequence().result();
     }
 }
