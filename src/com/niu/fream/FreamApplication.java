@@ -4,6 +4,7 @@ import com.niu.factorial.Factorial;
 import com.niu.factorial.RabbitsSequence;
 import com.niu.iteration.Iteration;
 import com.niu.winding.Windind;
+import com.niu.winding.Windind_quick;
 
 /**
  * 
@@ -39,6 +40,7 @@ public class FreamApplication {
         /**
          * 检测字符串是否为回文
          */
-        new Windind().result();
+        //new Windind().result();
+        new Windind_quick().result();
     }
 }
