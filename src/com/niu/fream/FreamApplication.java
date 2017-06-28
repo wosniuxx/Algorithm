@@ -3,6 +3,7 @@ package com.niu.fream;
 import com.niu.factorial.Factorial;
 import com.niu.factorial.RabbitsSequence;
 import com.niu.iteration.Iteration;
+import com.niu.winding.Windind;
 
 /**
  * 
@@ -33,6 +34,11 @@ public class FreamApplication {
         /**
          * 提示用户输入下标，计算与这个下标相适应的斐波那契数列
          */
-        new RabbitsSequence().result();
+        //new RabbitsSequence().result();
+        
+        /**
+         * 检测字符串是否为回文
+         */
+        new Windind().result();
     }
 }
