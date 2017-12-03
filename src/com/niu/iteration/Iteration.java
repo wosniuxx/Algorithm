@@ -1,5 +1,14 @@
 package com.niu.iteration;
 
+/**
+ *
+ * 迭代——计算给定文本内字符“A”的个数（简单的循环应用）
+ *
+ * @author 牛浩轩
+ * @version 2017年6月26日
+ * @see Iteration
+ * @since
+ */
 public class Iteration {
     public int countA(String str){
         if(str == null || str.length() == 0){
@@ -14,8 +23,15 @@ public class Iteration {
         }
         return count;
     }
-    
 
+    /**
+     *
+     * 递归——计算给定文本内字符“A”的个数
+     *
+     * @author 牛浩轩
+     * @version 2017年6月26日
+     * @since
+     */
     public int countB(String str){
         if(str == null || str.length() == 0){
             return 0;
