@@ -2,47 +2,22 @@ package com.niu.winding;
 
 import java.util.Scanner;
 
-/**
- * 
- * »ØÎÄµİ¹é£¬»ØÎÄ¼´¡°mom,dad¡±ÀàĞÍ
- * ÎÊÌâÃèÊö£º¼ì²â×Ö·û´®ÊÇ·ñÎª»ØÎÄ
- *
- * @author Å£ºÆĞù
- * @version 2017Äê6ÔÂ28ÈÕ
- * @see Windind
- * @since
- */
 public class Windind {
 
-    /**
-     * 
-     * Description:ÊäÈë²Ù×÷ 
-     *  void
-     *
-     * @see
-     */
+
     public void result(){
-        System.out.println("ÇëÊäÈë½ÓÊÜÅĞ¶ÏµÄ×Ö·û´®");
+        System.out.println("è¾“å…¥å€¼");
         Scanner input = new Scanner(System.in);
         String str = input.nextLine();
         windind(str);
     }
     
-    /**
-     * 
-     * Description:µİ¹éÊµÏÖ 
-     * 
-     *@param str
-     *@return boolean
-     *
-     * @see
-     */
     public boolean windind(String str){
         if(str.length() <= 1){
-            System.out.println("¸Ã×Ö·û´®¼ì²âÍê±Ï£¬ÊÇ»ØÎÄ£¡");
+            System.out.println("å¦‚æœé•¿åº¦å°äº1");
             return true;
         }else if (str.charAt(0) != str.charAt(str.length() - 1)) {
-            System.out.println("¸Ã×Ö·û´®¼ì²âÍê±Ï£¬²»ÊÇ»ØÎÄ£¡£¡£¡");
+            System.out.println("é•¿åº¦å¤§äºä¸€");
             return false;
         }else {
             return windind(str.substring(1, str.length() - 1));

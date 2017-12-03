@@ -2,60 +2,25 @@ package com.niu.winding;
 
 import java.util.Scanner;
 
-/**
- * 
- * »ØÎÄµİ¹é£¬»ØÎÄ¼´¡°mom,dad¡±ÀàĞÍ
- * ÎÊÌâÃèÊö£º¼ì²â×Ö·û´®ÊÇ·ñÎª»ØÎÄ,½ø½×°æ
- *
- * @author Å£ºÆĞù
- * @version 2017Äê6ÔÂ28ÈÕ
- * @see Windind
- * @since
- */
 public class Windind_quick {
 
-    /**
-     * 
-     * Description:ÊäÈë²Ù×÷ 
-     *  void
-     *
-     * @see
-     */
     public void result(){
-        System.out.println("ÇëÊäÈë½ÓÊÜÅĞ¶ÏµÄ×Ö·û´®");
+        System.out.println("è¾“å…¥å€¼");
         Scanner input = new Scanner(System.in);
         String str = input.nextLine();
         windind(str);
     }
     
-    /**
-     * 
-     * Description:µİ¹é¸¨Öú·½·¨£¬¼õÉÙÉú³ÉµÄĞÂ×Ö·û´®£¬Ìá¸ßÔËËãĞ§ÂÊ 
-     * 
-     *@param str
-     *@return boolean
-     *
-     * @see
-     */
     public boolean windind(String str){
         return windind(str, 0, str.length() - 1);
     }
     
-    /**
-     * 
-     * Description:µİ¹éÊµÏÖ 
-     * 
-     *@param str
-     *@return boolean
-     *
-     * @see
-     */
     public boolean windind(String str, int low, int high){
         if(high <= low){
-            System.out.println("¸Ã×Ö·û´®¼ì²âÍê±Ï£¬ÊÇ»ØÎÄ£¡");
+            System.out.println("å½“å°äºæ˜¯");
             return true;
         }else if (str.charAt(low) != str.charAt(high)) {
-            System.out.println("¸Ã×Ö·û´®¼ì²âÍê±Ï£¬²»ÊÇ»ØÎÄ£¡£¡£¡");
+            System.out.println("å½“å¤§äºæ—¶");
             return false;
         }else {
             return windind(str, low + 1, high - 1);

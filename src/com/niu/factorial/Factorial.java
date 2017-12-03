@@ -2,21 +2,13 @@ package com.niu.factorial;
 
 import java.util.Scanner;
 
-/**
- * 
- * 提示用户输入一个非负整数，然后显示这个非负整数的阶乘
- *
- * @author 牛浩轩
- * @version 2017年6月27日
- * @see Factorial
- * @since
- */
+
 public class Factorial {
     public void result(){
         Scanner input = new Scanner(System.in);
-        System.out.println("请输入一个非负整数");
+        System.out.println("锟斤拷锟斤拷锟斤拷一锟斤拷锟角革拷锟斤拷锟斤拷");
         int num = input.nextInt();
-        System.out.println(num + "的阶乘是：" + multiplication(num));
+        System.out.println(num + "锟侥阶筹拷锟角ｏ拷" + multiplication(num));
     }
     
     public long multiplication(int n){
