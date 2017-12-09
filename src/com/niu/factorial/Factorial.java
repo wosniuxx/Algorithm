@@ -18,6 +18,7 @@ public class Factorial {
         int num = input.nextInt();
         System.out.println(num + "的阶乘是：" + multiplication(num));
     }
+
     
     public long multiplication(int n){
         if(n == 0){
