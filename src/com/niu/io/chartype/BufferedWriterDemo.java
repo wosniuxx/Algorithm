@@ -1,4 +1,4 @@
-package com.niu.io;
+package com.niu.io.chartype;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

@@ -1,4 +1,4 @@
-package com.niu.io;
+package com.niu.io.chartype;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
