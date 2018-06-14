@@ -18,8 +18,7 @@ public class ParallelStreamTest {
 
     public static void main(String[] args) {
         streamsTest();
-        System.out.println("新建分支test");
-        System.out.println("commitC");
+        System.out.println("ex1");
     }
 
 }
