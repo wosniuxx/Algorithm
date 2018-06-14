@@ -18,7 +18,7 @@ public class ParallelStreamTest {
 
     public static void main(String[] args) {
         streamsTest();
-        System.out.println("ex1");
+        System.out.println("ex2");
     }
 
 }
