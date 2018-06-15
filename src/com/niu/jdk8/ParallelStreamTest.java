@@ -18,7 +18,7 @@ public class ParallelStreamTest {
 
     public static void main(String[] args) {
         streamsTest();
-        System.out.println("测试新功能");
+        System.out.println("测试新功能1");
     }
 
 }
