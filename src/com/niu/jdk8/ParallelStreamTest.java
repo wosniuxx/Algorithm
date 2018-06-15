@@ -19,6 +19,7 @@ public class ParallelStreamTest {
     public static void main(String[] args) {
         streamsTest();
         System.out.println("1");
+        System.out.println("1");
     }
 
 }
